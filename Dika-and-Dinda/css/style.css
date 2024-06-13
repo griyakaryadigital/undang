@@ -18,6 +18,7 @@ body {
   color: #fff;
   background: #252525;
   overflow: hidden;
+  height: 100%;
 }
 
 #page {
