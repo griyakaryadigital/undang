@@ -30,6 +30,11 @@ body {
   -o-transition: 0.5s;
   transition: 0.5s;
 }
+
+.scrollable{
+  overflow-y: auto
+}
+
 .offcanvas #page {
   overflow: hidden;
   position: absolute;
