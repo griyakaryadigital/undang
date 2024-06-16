@@ -36,7 +36,7 @@ body {
 }
 
 .scrollable {
-  overflow-y: auto;
+  overflow-y: scroll;
 }
 
 .offcanvas #page {
@@ -58,7 +58,7 @@ body {
 }
 
 a {
-  color: #9c6137;
+  color: #fff4c2;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
@@ -66,13 +66,13 @@ a {
 a:hover,
 a:active,
 a:focus {
-  color: #9c6137;
+  color: #fff4c2;
   outline: none;
   text-decoration: none;
 }
 
 p {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 h1,
@@ -486,10 +486,10 @@ figure {
   background-position: top, bottom;
   background-repeat: no-repeat, no-repeat;
   height: 100vh;
-  overflow-y: auto;
+  overflow-y: scroll;
 }
 #fh5co-header .fh5co-heading {
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 #fh5co-header .couple-main {
   width: 400px;
@@ -519,7 +519,7 @@ figure {
   }
 }
 #fh5co-header .simply-countdown {
-  margin-top: 50px;
+  margin-top: 0;
   margin-bottom: 0 !important;
 }
 
@@ -889,11 +889,12 @@ figure {
 
 /* Ayat */
 #fh5co-ayat {
-  background-color: rgba(55, 55, 55, 0.8);
-  color: #ffffff;
-  font-size: 24px;
-  position: relative;
-  overflow: hidden;
+  background-image: url(../images/background/gunung-top-dark.webp),
+    url(../images/background/gunung-bot-dark.webp);
+  background-position: top, bottom;
+  background-repeat: no-repeat, no-repeat;
+  height: 100vh;
+  overflow-y: scroll;
 }
 
 #fh5co-ayat .ayat-content {
@@ -930,7 +931,7 @@ figure {
   display: inline-block;
   zoom: 1;
   /* *display: inline; */
-  color: #5d5d5d;
+  color: #ffffff;
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -949,7 +950,7 @@ figure {
   position: relative;
 }
 .fh5co-contact-info ul li:before {
-  color: #9c6137;
+  color: #fff4c2;
   position: absolute;
   left: 0;
   top: 0.05em;
@@ -1176,7 +1177,7 @@ form label {
   #fh5co-couple,
   #fh5co-gallery,
   .fh5co-section {
-    padding: 3em 0;
+    padding: 1em 0;
   }
 }
 
@@ -1186,7 +1187,7 @@ form label {
   background-position: top, bottom;
   background-repeat: no-repeat, no-repeat;
   height: 100vh;
-  overflow-y: auto;
+  overflow-y: scroll;
 }
 
 #fh5co-couple {
@@ -1195,7 +1196,7 @@ form label {
   background-position: top, bottom;
   background-repeat: no-repeat, no-repeat;
   height: 100vh;
-  overflow-y: auto;
+  overflow-y: scroll;
 }
 
 #fh5co-love {
@@ -1204,7 +1205,7 @@ form label {
   background-position: top, bottom;
   background-repeat: no-repeat, no-repeat;
   height: 100vh;
-  overflow-y: auto;
+  overflow-y: scroll;
   padding-bottom: 50px;
 }
 
@@ -1214,7 +1215,7 @@ form label {
   background-position: top, bottom;
   background-repeat: no-repeat, no-repeat;
   height: 100vh;
-  overflow-y: auto;
+  overflow-y: scroll;
   padding-bottom: 100px;
 }
 
@@ -1224,7 +1225,7 @@ form label {
   background-position: top, bottom;
   background-repeat: no-repeat, no-repeat;
   height: 100vh;
-  overflow-y: auto;
+  overflow-y: scroll;
   padding-bottom: 100px;
 }
 
@@ -1234,7 +1235,7 @@ form label {
   background-position: top, bottom;
   background-repeat: no-repeat, no-repeat;
   height: 100vh;
-  overflow-y: auto;
+  overflow-y: scroll;
   padding-bottom: 50px;
 }
 
@@ -1357,11 +1358,11 @@ form label {
   }
   .couple-half .desc-groom {
     padding-right: 0;
-    text-align: center;
+    text-align: left;
   }
   .couple-half .desc-bride {
     padding-left: 0;
-    text-align: center;
+    text-align: right;
   }
 }
 
@@ -1409,7 +1410,7 @@ form label {
 }
 
 .fh5co-heading {
-  margin-bottom: 5em;
+  margin-bottom: 0;
 }
 .fh5co-heading.fh5co-heading-sm {
   margin-bottom: 2em;
@@ -1686,7 +1687,7 @@ form label {
   top: 0;
   bottom: 0;
   padding: 45px 40px 40px 40px;
-  overflow-y: auto;
+  overflow-y: scroll;
   -moz-transform: translateX(270px);
   -webkit-transform: translateX(270px);
   -ms-transform: translateX(270px);
@@ -2092,9 +2093,10 @@ form label {
 }
 
 .form-control {
-  box-shadow: none;
-  background: transparent;
+  box-shadow: 0px 7px 6px #1b1b1b;
+  background: rgba(55, 55, 55, 0.8);
   border: 2px solid rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
   height: 54px;
   font-size: 18px;
   font-weight: 300;
@@ -2423,14 +2425,12 @@ form label {
     top: 5%;
   }
   .flower-4-bottom-right {
-    right: -80px;
+    left: -50px;
     bottom: -50px;
-    transform: rotate(180deg);
   }
   .flower-4-bottom-left {
-    left: -80px;
+    right: -50px;
     bottom: -50px;
-    transform: rotate(180deg);
   }
   .flower-bukutamu-right {
     height: 25%;
@@ -2454,12 +2454,10 @@ form label {
   .flower-4-bottom-right {
     left: 10px;
     bottom: 0px;
-    transform: rotate(180deg);
   }
   .flower-4-bottom-left {
     right: 10px;
     bottom: 0px;
-    transform: rotate(180deg);
   }
 }
 
@@ -2500,5 +2498,36 @@ form label {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+#bottom-menu {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #333;
+  box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.bottom-menu-items {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.bottom-menu-items li {
+  width: 50px;
+  height: 50px;
+  background-size: 24px;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+
+.active {
+  background-color: #555555;
 }
 /*# sourceMappingURL=style.css.map */
