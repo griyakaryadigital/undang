@@ -35,8 +35,27 @@ body {
   transition: 0.5s;
 }
 
-.scrollable {
-  overflow-y: scroll;
+/* Play Button */
+#playPauseButton {
+  position: fixed;
+  bottom: 80px; /* Adjust based on your bottom menu height */
+  left: 8%;
+  transform: translateX(-50%);
+  z-index: 1000;
+  width: 40px;
+  height: 40px;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#playPauseButton img {
+  width: 20px;
+  height: 20px;
 }
 
 .offcanvas #page {
@@ -1200,10 +1219,10 @@ form label {
 }
 
 #fh5co-love {
-  background-image: url(../images/background/gunung-top-dark.webp),
-    url(../images/background/gunung-bot-dark.webp);
-  background-position: top, bottom;
-  background-repeat: no-repeat, no-repeat;
+  background: radial-gradient(transparent, #353535), url(../images/hm1.webp);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 100vh;
   overflow-y: scroll;
   padding-bottom: 50px;
@@ -1230,10 +1249,10 @@ form label {
 }
 
 #fh5co-testimonial {
-  background-image: url(../images/background/gunung-top-dark.webp),
-    url(../images/background/gunung-bot-dark.webp);
-  background-position: top, bottom;
-  background-repeat: no-repeat, no-repeat;
+  background: radial-gradient(transparent, #353535), url(../images/hm2.webp);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 100vh;
   overflow-y: scroll;
   padding-bottom: 50px;
