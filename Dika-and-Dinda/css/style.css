@@ -432,7 +432,7 @@ figure {
   #fh5co-counter,
   #fh5co-event {
     height: inherit;
-    padding: 7em 0;
+    padding: 3em 0;
   }
   #fh5co-counter .display-t,
   #fh5co-counter .display-tc,
@@ -917,7 +917,7 @@ figure {
 }
 
 #fh5co-ayat .ayat-content {
-  padding: 7em 0;
+  padding: 3em 0;
   text-align: center;
 }
 
@@ -1183,7 +1183,7 @@ form label {
 #fh5co-couple,
 #fh5co-gallery,
 .fh5co-section {
-  padding: 7em 0;
+  padding: 3em 0;
   clear: both;
 }
 @media screen and (max-width: 768px) {
@@ -1194,9 +1194,12 @@ form label {
   #fh5co-event,
   #fh5co-couple-story,
   #fh5co-couple,
+  #fh5co-header,
+  #fh5co-love,
+  #fh5co-ayat,
   #fh5co-gallery,
   .fh5co-section {
-    padding: 1em 0;
+    padding-bottom: 10em !important;
   }
 }
 
@@ -2161,7 +2164,7 @@ form label {
 }
 
 #fh5co-health-protocol {
-  padding: 7em 0;
+  padding: 3em 0;
   position: relative;
 }
 #fh5co-health-protocol:before {
@@ -2508,7 +2511,7 @@ form label {
 
 @media (max-width: 768px) {
   #message {
-    width: 90vw;
+    width: 100%;
     height: 20em;
   }
 }
