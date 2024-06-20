@@ -558,9 +558,10 @@ figure {
   background: rgba(0, 0, 0, 0.7);
   position: relative;
   width: 100%;
-  height: 100%;
+  height: 100vh;
   z-index: 2001;
   top: 0;
+  overflow-y: scroll;
 }
 #overlay .content .container {
   padding-top: 80px;
